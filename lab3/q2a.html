@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table colors</title>
+    <style>
+        td{
+            color: white;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 0rem 1.5rem;
+        }
+        #red{
+            background-color: red;
+        }
+        #Green{
+            background-color: Green;
+        }
+        #Black{
+            background-color: Black;
+
+        }
+        #Blue{
+            background-color: Blue;
+        }
+        #Orange{
+            background-color: Orange;
+        }
+        #Pink{
+            background-color: Pink;
+        }
+        #White{
+            background-color: white;
+            color: black;
+        }
+        
+        #Yellow{
+            background-color: Yellow;
+        }
+        table{
+          margin  :  1rem 28rem 0rem ;
+            padding: 2rem;
+        }
+        h1{
+            font-size: 2rem;
+            margin: 2rem 0rem 0rem 30rem;
+    }
+
+    </style>
+</head>
+<body>
+    <h1>COLORED TABLE</h1>
+    <table>
+        <thead>
+            <tr >
+                <th colspan="4"> Colors</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="red">Red</td>
+                <td id="Green">Green</td>
+                <td colspan="2" id="Black">Black</td>
+            </tr>
+            <tr>
+                <td colspan="2" rowspan="2" id="Blue">Blue</td>
+                <td id="Orange">Orange</td>
+                <td id="Pink">Pink</td>
+            </tr>
+            <tr>
+                <td id="White">White</td>
+                <td id="Yellow">Yellow</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

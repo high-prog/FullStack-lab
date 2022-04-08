@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio and Video Tags</title>
+    <style>
+        *{
+            font-size: 1.5rem;
+            margin-left: 10px
+            ;
+        }
+       
+    
+    </style>
+</head>
+<body>
+    <div class="audios">    
+        <label for="Autoplay">Autoplay:</label>
+        <audio src="./file_example_MP3_700KB.mp3" id="Autoplay" controls  autoplay></audio>
+    <div class="audios">    
+        <label for="loop">Loop:</label>
+         <audio src="./file_example_MP3_700KB.mp3" id="loop" controls loop ></audio>
+    <div class="audios">    
+        <label for="muted">Muted:</label>
+        <audio src="./file_example_MP3_700KB.mp3" id="muted" controls muted ></audio>
+    </div>
+    <label for="video">Video:</label>
+    <div id="video">
+        <video src="./videoplayback.mp4" controls width="40%" height="40%"></video>
+    </div>
+</body>
+</html>
