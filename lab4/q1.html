@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavBar</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        nav{
+            background-color: black;
+            padding: 2rem;
+        }
+        ul{ 
+            margin: 0px;
+            text-align: left ;
+            font-size: 1.3rem;
+            display: inline;
+        }
+        ul li{
+            
+            list-style: none;
+            display: inline;
+            padding: 1rem;
+        }
+        ul li a{
+            text-decoration: none;
+            color: lightslategrey;
+        }
+        div{
+            display: inline;
+            position: relative;
+            right: -500px;
+            padding: 0.5rem;
+            border: 1px solid white;
+            background-color: white;
+            border-radius: 1rem;
+        }
+        input{
+            border: none;
+            outline: none;
+            color: black;
+            height: 1rem;
+            padding: 0.4rem;
+            
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">PortFolio</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+
+        <div class=" search">
+            <input type="text" name="search" id="" placeholder="Search">
+        </div>
+    </nav>
+</body>
+</html>
